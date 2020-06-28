@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="travelSite.SeleniumPOC.HotWire">
+        <methods>
+          <include name="fromDate"/>
+          <include name="init"/>
+          <include name="departureTime"/>
+          <include name="arrivalTime"/>
+          <include name="toDate"/>
+          <include name="selectFlyToAddress"/>
+          <include name="vacation"/>
+          <include name="findDeal"/>
+          <include name="selectFlyFromAddress"/>
+          <include name="selectOpt"/>
+          <include name="teardown"/>
+          <include name="launchURL"/>
+        </methods>
+      </class> <!-- travelSite.SeleniumPOC.HotWire -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

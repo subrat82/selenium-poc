@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17413" started-at="2020-06-28T08:47:57 PDT" finished-at="2020-06-28T08:48:14 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17413" started-at="2020-06-28T08:47:57 PDT" finished-at="2020-06-28T08:48:14 PDT">
+      <class name="travelSite.SeleniumPOC.HotWire">
+        <test-method status="PASS" signature="init()[pri:0, instance:travelSite.SeleniumPOC.HotWire@130f889]" name="init" is-config="true" duration-ms="2421" started-at="2020-06-28T08:47:57 PDT" finished-at="2020-06-28T08:47:59 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:travelSite.SeleniumPOC.HotWire@130f889]" name="launchURL" duration-ms="2130" started-at="2020-06-28T08:47:59 PDT" finished-at="2020-06-28T08:48:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="vacation()[pri:0, instance:travelSite.SeleniumPOC.HotWire@130f889]" name="vacation" duration-ms="12503" started-at="2020-06-28T08:48:02 PDT" depends-on-methods="travelSite.SeleniumPOC.HotWire.launchURL" finished-at="2020-06-28T08:48:14 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vacation -->
+        <test-method status="PASS" signature="selectOpt()[pri:0, instance:travelSite.SeleniumPOC.HotWire@130f889]" name="selectOpt" duration-ms="158" started-at="2020-06-28T08:48:14 PDT" depends-on-methods="travelSite.SeleniumPOC.HotWire.vacation" finished-at="2020-06-28T08:48:14 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectOpt -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:travelSite.SeleniumPOC.HotWire@130f889]" name="teardown" is-config="true" duration-ms="163" started-at="2020-06-28T08:48:14 PDT" finished-at="2020-06-28T08:48:14 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- travelSite.SeleniumPOC.HotWire -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
